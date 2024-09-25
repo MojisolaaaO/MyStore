@@ -17,11 +17,11 @@ jobs:
           cache-dependency-path: './package-lock.json'
 
       - name: Install dependencies
-        working-directory: ./MyStore
+        working-directory: ./package.json
         run: npm ci 
 
       - name: Start application
-        working-directory: ./MyStore 
+        working-directory: ./package.json 
         run: npm start &  
 
       - name: Run Cypress tests
