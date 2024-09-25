@@ -12,12 +12,12 @@ The following software and tools are required to run the test:
 To install and setup the project:
 1. Clone the repository:
 ```bash
-   git clone https://github.com/MojisolaaaO/CommitQuality.git
+   git clone https://https://github.com/MojisolaaaO/MyStore.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-   cd CommitQuality
+   cd MyStore
 ```
 
 3. Install dependencies:
