@@ -3,7 +3,7 @@ name: e2e-tests
 on:
   push:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 0 * * *'
 
 jobs:
   cypress-run:
@@ -30,4 +30,5 @@ jobs:
 
       - name: Run Cypress tests
         working-directory: ./  
-        run: npx cypress run 
+        run: npx cypress run
+
