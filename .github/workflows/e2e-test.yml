@@ -1,9 +1,7 @@
 name: e2e-tests
 
 on:
-  push:
-  schedule:
-    - cron: '0 0 * * *'
+  push
 
 jobs:
   cypress-run:
